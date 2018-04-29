@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        books:
+          destination: books
+        payments:
+          destination: payments
+        shipments:
+          destination: shipments
+        communication:
+          destination: communication
